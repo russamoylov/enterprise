@@ -1,0 +1,27 @@
+RESULTS OF THE TEST FOR 1000000 ELEMENTS.
++-----------------------+-----------+-----------+-----------+-----------+
+|Method name/Coll. type | ArrayList | LinkedList|  HashSet  |  TreeSet  |
++-----------------------+-----------+-----------+-----------+-----------+
+| populate              | 82919501  | 183859940 | 166558594 | 933007779 |
+| add(index) Top        | 3522954   | 1970      | 0         | 0         |
+| add(index) Mid        | 4137658   | 7942832   | 0         | 0         |
+| add(index) End        | 1878      | 1755      | 0         | 0         |
+| get(index) Top        | 1026      | 1144      | 0         | 0         |
+| get(index) Mid        | 1560      | 5758187   | 0         | 0         |
+| get(index) End        | 1006      | 1406      | 0         | 0         |
+| remove(index) Top     | 3272224   | 1642      | 0         | 0         |
+| remove(index) Mid     | 8012242   | 8800988   | 0         | 0         |
+| remove(index) End     | 14642927  | 15576580  | 0         | 0         |
+| contains (value) Top  | 1124      | 1257      | 0         | 0         |
+| contains (value) Mid  | 6698488   | 9171198   | 0         | 0         |
+| contains (value) End  | 1401      | 1226      | 0         | 0         |
+| iterator.add() Top    | 3097972   | 1555      | 0         | 0         |
+| iterator.add() Mid    | 1477853   | 1483      | 0         | 0         |
+| iterator.add() End    | 2438      | 1313      | 0         | 0         |
+| iterator.remove() Top | 3038463   | 1919      | 0         | 0         |
+| iterator.remove() Mid | 1566763   | 2078      | 0         | 0         |
+| iterator.remove() End | 5050      | 1745      | 0         | 0         |
+| add(value)            | 0         | 0         | 1201      | 1632      |
+| remove(value)         | 0         | 0         | 1421      | 1729      |
+| contains (value)      | 0         | 0         | 2222      | 2191      |
++-----------------------+-----------+-----------+-----------+-----------+
